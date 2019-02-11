@@ -1,0 +1,18 @@
+
+<div class="container">
+  <div class="input-container">
+    <div class="form-group">
+      <input type="text" [(ngModel)]="name" class="form-control"  placeholder="Car Name">
+    </div>
+    <div class="form-group">
+      <input type="number" [(ngModel)]="year" class="form-control" placeholder="Year">
+    </div>
+    <button type="submit" (click)="addCar()" class="btn btn-primary mb-2">Add</button>
+  </div>
+  <div *ngFor="let car of cars"  class="items" >
+    <p class="item-id">{{car.year}}</p>
+    <p class="item-name">{{car.name}}</p>
+    <button type="button" (click)="editObj(car)" class="btn btn1">Edit</button>
+    <button type="button" (click)="deleteObj(car)" class="btn btn2">Delete</button>
+  </div>
+</div>

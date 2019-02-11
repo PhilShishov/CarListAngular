@@ -1,0 +1,88 @@
+
+  .btn-primary{
+    color: #fff;
+    background-color: #2e6aa5;
+    border-color: #2e6aa5;
+  }
+  .btn-primary:hover{
+    color: #fff;
+    background-color: #2e6aa5;
+    border-color: #2e6aa5;
+  }
+  .btn-primary:active{
+    color: #fff;
+    background-color: #2e6aa5;
+    border-color: #2e6aa5;
+  }
+  .container{
+    padding:0px 15px 0px 15px;
+    width:100%;
+    text-align: center;
+    width: 500px;
+  }
+  .container .input-container{
+    border: 1px solid #607d89;
+    border-radius: 8px;
+    padding: 15px;
+    background: #eee;
+  }
+  .container .items {
+    display: flex;
+    background: #eee;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 0.25em;
+  
+  }
+  
+  .container .items.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+  }
+  .container .items:hover{
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  .container .items .item-id{
+    margin: 0;
+    flex: 20;
+    border-radius: 4px 0 0 4px;
+    padding: 10px;
+    background: #607d8a;
+    color: #fff;
+  }
+  .container .items .item-name{
+    margin: 0;
+    flex: 80;
+    padding-top: 10px;
+
+  }
+  .container .btn1{
+    border: 1px solid #607d89;
+    border-radius: 0.25em 0 0 0.25em;
+    border-right: 0;
+    color: #607d89;
+  }
+  .container .btn1:hover{
+    border: 1px solid #fff;
+    border-radius: 0.25em 0 0 0.25em;
+    color: #fff;
+    background: #607d89;
+  }
+  .container .btn2{
+    border: 1px solid #607d89;
+    border-radius: 0 0.25em 0.25em 0;
+    color: #607d89;
+  }
+  .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+  .container .btn2:hover{
+    border: 1px solid #fff;
+    border-radius: 0 0.25em 0.25em 0;
+    color: #fff;
+    background: #607d89;
+
+  }
